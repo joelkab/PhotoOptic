@@ -17,6 +17,7 @@ def IntroDisplay():
           "                                                                                                   ")
 
 
+
 def Menue():
 
     print("1. Brightness ✨\n")
