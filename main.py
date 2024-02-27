@@ -27,4 +27,10 @@ cv2.waitKey(100)
 username = input("Enter username:")
 print("Username is: " + username)
 #cv2.destroyAllWindows()
-displayText()
+newimage = displayText(image)
+image = newimage 
+cv2.imshow('newimage', image)
+cv2.waitKey(100)
+x = input()
+
+
