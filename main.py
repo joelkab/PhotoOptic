@@ -1,7 +1,6 @@
 from ImageOption import *
 from Tools import *
 
-
 # import the required library
 import cv2
 
@@ -32,5 +31,7 @@ image = newimage
 cv2.imshow('newimage', image)
 cv2.waitKey(100)
 x = input()
+get_NewImage()
+
 
 
